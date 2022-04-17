@@ -1,9 +1,33 @@
+h1,h2,h3,h4{
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+p{
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.btn{
+    font-family: 'Roboto';
+    font-weight: 300; 
+}
 .hero{
-background-color:rgb(228, 247, 255);
-
+background-color:#eaf6fd;
 }
 
 .hero-box{
     height: 150px;
- 
 }
+
+.hero2{
+    background-image: url('../imgs/learn-to-analyze-ad-metrics.png');
+    background-size:contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color:#eaf6fd;
+    min-height: 60vh;
+    background-origin: content-box;
+    }
+
+    .footer{
+        background-color: #eaf6fd;
+    }
